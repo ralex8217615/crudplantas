@@ -6,7 +6,6 @@ import {
   updatePlanta,
   deletePlanta
 } from "../controllers/plantas.js";
-
 const router = express.Router();
 
 router.get("/", getPlantas);
